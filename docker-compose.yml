@@ -2,3 +2,7 @@ version: '3'
 services:
   bot:
     build: '.'
+networks:
+  default:
+    name: bridge-network
+    external: true
